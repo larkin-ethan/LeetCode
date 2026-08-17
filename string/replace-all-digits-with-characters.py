@@ -1,5 +1,13 @@
 class Solution:
     def replaceDigits(self, s: str) -> str:
+        """
+        What I learned:
+
+        range in a for loop is (<num_to_start>, <end_num>, <inc_num>)
+        chr in Python is turns an ASCII number representation into its char
+        ord in Python is turns a char into its ASCII number representation
+        """
+        
         # Go through the list and get the index of the current letter
         # Then get the number and continue through the list from there
         # going forward until you find the resulting letter
